@@ -81,14 +81,14 @@
           
         </ion-skeleton-text> 
         <ion-card>
-            <!-- <ion-card-header style="text-align: center">
+        
                 <ion-card-title>Times</ion-card-title>
             </ion-card-header> -->
             <ion-card-content id="prayer-times"> </ion-card-content>
           </ion-card>
           <ion-content >
           </ion-content>
-          <!-- </ion-split-pane> -->
+      
         </ion-app>
 
     <script src="script.js"></script>
