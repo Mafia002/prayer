@@ -40,23 +40,12 @@
   <body>
     <ion-app>
       <ion-header >
-          <ion-toolbar>
-              <img src="./assets/logo.svg" alt="" srcset="" class="logo" />
-              <!-- <ion-icon name="moon-outline" size="large"></ion-icon> -->
-          
+          <ion-toolbar>            
+         <ion-icon name="moon-outline" size="large"></ion-icon>           
               <ion-title>Prayer Times</ion-title>
           </ion-toolbar>
-      </ion-header>
-
-      
-           
-
-      <!-- <ion-split-pane when="xs"> -->
-        <!-- <ion-menu  [fullscreen]="false"> -->
-         
-
-          
-          <ion-card class="firstView">
+      </ion-header>  
+           <ion-card class="firstView">
             <ion-item>
               <ion-label position="stacked">Enter City</ion-label>
               <ion-input  id="cityName"  type="text" aria-label="city name" required autofocus debounce="2" mode="ios"></ion-input>
@@ -87,10 +76,10 @@
 
 
 
-<!--         
+        
         <ion-skeleton-text animated="true" >
           
-        </ion-skeleton-text> -->
+        </ion-skeleton-text> 
         <ion-card>
             <!-- <ion-card-header style="text-align: center">
                 <ion-card-title>Times</ion-card-title>
